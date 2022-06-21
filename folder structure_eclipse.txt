@@ -1,0 +1,66 @@
+test/java - reusable methods
+test/resource - 
+
+Launch method
+
+
+WRAPPER CLASS: (REUSABLE CLASS)
+browser utilities calss:
+	launch methd
+	switch window
+	clear cache
+
+keyboard utilities class:
+
+Mouse Utilities Class:
+
+
+feature; Page name
+
+New-> .feature
+	
+
+write feature file
+write method for st
+
+
+https://www.amazon.in/TAGG-Verve-Smartwatch-Real-Time-Waterproof/dp/B09HHCJ2CK/ref=sr_1_1_sspa?crid=2LASVQSJM75HB&keywords=smart+watches&qid=1655704380&sprefix=smartwatche%2Caps%2C172&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyVVhQNFg5RjVLU1MzJmVuY3J5cHRlZElkPUEwOTg3MTg3MVNCRVpFREU3OVdENSZlbmNyeXB0ZWRBZElkPUEwNTk0NzI1MVZONllBNE1OU1ZUWiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=
+
+
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+	features = "src/test/resources/features/", glue={
+"com.rbs.automation.Day2RPA.stepdefinitions"},
+
+plugin = {"pretty", "html:target/cucumber", "usage:src/test/resources/usage.json",
+"json:src/test/resources/cucumber.json","rerun:rerun.txt",
+"com.cucumber.listener.ExtentCucumberFormatter:"},
+
+monochrome=true;
+
+tags = {"@lr136"}
+)
+
+
+validation:
+if element is present true;
+myresult = true;
+
+extent report??
+
+
+
+
+isDisplay()
+isEnabled()
+isSelected()
+
+Basic github terminalogies
+
+1. Repositories
+2. folder
+3. REadme
+4. Commit (Save changes)
+
